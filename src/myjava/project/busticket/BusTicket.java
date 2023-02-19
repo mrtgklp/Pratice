@@ -16,6 +16,7 @@ public class BusTicket {
         yas = input.nextInt();
         System.out.println("gidis ve ya donus tipini giriniz. sadece gidis yönü 1\nGidis-Donus ise 2");
         yolculukTipi = input.nextInt();
+        System.out.println("GitGithub ilk deneme");
 
 
         if (km>0 && yas > 0 && (yolculukTipi==1 || yolculukTipi==2)){
